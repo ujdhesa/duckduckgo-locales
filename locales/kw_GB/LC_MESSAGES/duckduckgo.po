@@ -220,6 +220,14 @@ msgctxt "Organic result context menu"
 msgid "%s results hidden"
 msgstr ""
 
+#. Description explaining that the model runs in an encrypted environment so neither DuckDuckGo nor the model provider can access user prompts or responses. %s is replaced with the full model name (e.g. 'GPT-OSS 120B').
+msgctxt "Privacy claim description in Duck.ai chat for encrypted models"
+msgid ""
+"%s runs in a Trusted Execution Environment. This means not even the model "
+"provider can see your prompts or the model’s responses, or save this chat on "
+"their servers."
+msgstr ""
+
 #. Shown to Plus subscribers when they hit a usage limit error. The variable is a link with text 'Upgrade to Pro' that takes the user to the Pro plans page. Example: Upgrade to Pro to unlock 2x higher limits.
 msgctxt "Text promoting Pro upgrade for Plus subscribers who hit usage limits"
 msgid "%s to unlock 2x higher limits."
@@ -1066,6 +1074,11 @@ msgctxt "Empty state heading in Duck.ai chat mode"
 msgid "All chats are %s"
 msgstr ""
 
+#. Disclaimer text shown below chat input. %s is replaced with a clickable underlined 'private' link that opens the privacy protection modal.
+msgctxt "Disclaimer below chat input in Duck.ai"
+msgid "All chats are %s. AI can make mistakes."
+msgstr ""
+
 #. Title displayed at the top of the privacy protection modal in Duck.ai, summarizing that all conversations are private.
 msgctxt "Privacy modal header in Duck.ai chat"
 msgid "All chats are private"
@@ -1648,6 +1661,11 @@ msgstr ""
 #. The average volume traded for a particular stock
 msgctxt "Stocks module"
 msgid "Avg Vol"
+msgstr ""
+
+#. Warning text shown below the chat input when the user has attached files, advising them not to upload files from untrusted sources.
+msgctxt "Disclaimer below chat input in Duck.ai when files are attached"
+msgid "Avoid uploading files from sources you don't trust."
 msgstr ""
 
 #. Indicates the Win-Loss record of a team when playing away
@@ -9067,6 +9085,14 @@ msgctxt "voice chat"
 msgid "One moment please..."
 msgstr ""
 
+#. Error message displayed when one attached file has more pages than supported. Placeholder is the maximum supported page count. E.g. One of the files attached has more pages than we support. Please upload files with 15 pages or fewer.
+msgctxt ""
+"Error message when an attached file exceeds the supported page count limit"
+msgid ""
+"One of the files attached has more pages than we support. Please upload "
+"files with %s pages or fewer."
+msgstr ""
+
 #. Response a user can select in a feedback form, indicating that they heard about DuckDuckGo in an online article.
 msgctxt "new user poll"
 msgid "Online article"
@@ -10454,6 +10480,11 @@ msgctxt "Informational text with a link to DuckDuckGo AI Chat Privacy Terms"
 msgid "Read our %s"
 msgstr ""
 
+#. Text displayed while the AI assistant is reading a specific local document, such as an uploaded file or attached page context, while generating a response.
+msgctxt "Assistant response progress report"
+msgid "Reading document"
+msgstr ""
+
 #. Loading message shown while duckassist is reading search results
 msgid "Reading search results..."
 msgstr ""
@@ -11552,6 +11583,11 @@ msgstr ""
 msgid "See Photos"
 msgstr ""
 
+#. Text for a button that links to the terms of use and privacy policy page.
+msgctxt "Secondary button text in active privacy modal"
+msgid "See Privacy Policy and Terms of Service"
+msgstr ""
+
 #. Text of the secondary button in the modal that allows the user to open the terms and privacy policy page.
 msgctxt "Modal secondary button for privacy"
 msgid "See Terms and Privacy Policy"
@@ -11576,6 +11612,11 @@ msgstr ""
 #. Then at the bottom of the cloud save box - http://i.imgur.com/4Jo3jAf.png
 msgctxt "cloudsave"
 msgid "See also"
+msgstr ""
+
+#. Link text shown below a rich caption list in search results. The placeholder %s is the website domain name, e.g. 'wikipedia.org'.
+msgctxt "Rich caption simple list, see more link"
+msgid "See full list on %s"
 msgstr ""
 
 #. Text for tooltip shown on hover when displaying the number of reviews the merchant has on an ad
@@ -12966,6 +13007,12 @@ msgstr ""
 msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr ""
 
+#. Warning text shown in the model switch dropdown when the user is currently using an encrypted model. Warns that the new model will not have zero provider visibility.
+msgctxt "AI Chat warning when switching from an encrypted model"
+msgid ""
+"Switching will send your chat to a model without zero provider visibility"
+msgstr ""
+
 msgid "Switzerland"
 msgstr ""
 
@@ -13252,10 +13299,20 @@ msgctxt "Error message when combined file size exceeds the limit"
 msgid "The attached files exceed the total size limit of %s MB"
 msgstr ""
 
+#. Error message displayed when the total size of all attached files in a conversation exceeds the allowed limit. Placeholder is the combined size limit in megabytes. E.g. The attached files exceed the total size limit of 5 MB
+msgctxt "Error message when combined file size exceeds the limit"
+msgid "The attached files exceed the total size limit of %s MB."
+msgstr ""
+
 #. Description explaining that the AI model provider deletes all chat data within 30 days.
 msgctxt "Privacy claim description in Duck.ai chat"
 msgid ""
 "The model provider deletes any data associated with this chat within 30 days."
+msgstr ""
+
+#. Description explaining that the AI model provider does not store any chat data on their servers.
+msgctxt "Privacy claim description in Duck.ai chat"
+msgid "The model provider does not save this chat on their servers."
 msgstr ""
 
 #. Description explaining that the AI model provider does not store any chat data on their servers.
@@ -13404,6 +13461,11 @@ msgctxt "Error message when a single file exceeds the size limit"
 msgid "This file is too large. The maximum file size is %s MB"
 msgstr ""
 
+#. Error message displayed when the user tries to attach a file that exceeds the maximum allowed size. Placeholder is the size limit in megabytes. E.g. This file is too large. The maximum file size is 5 MB
+msgctxt "Error message when a single file exceeds the size limit"
+msgid "This file is too large. The maximum file size is %s MB."
+msgstr ""
+
 #. Generic error message displayed when the user tries to upload an unsupported file type and we cannot determine the accepted types
 msgctxt "Error message when an uploaded file type is not supported"
 msgid "This file type is not supported"
@@ -13421,6 +13483,23 @@ msgctxt ""
 msgid "This file type is not supported, please attach a %s or %s"
 msgstr ""
 
+#. Error message for unsupported file type when multiple types are accepted. First placeholder is a comma-separated list of all accepted types except the last (e.g. PNG, JPG, WebP, GIF). Second placeholder is the last accepted type (e.g. PDF). Full example: This file type is not supported, please attach a PNG, JPG, WebP, GIF or PDF
+msgctxt ""
+"Error message when an uploaded file type is not supported, with list ending "
+"in or"
+msgid "This file type is not supported, please attach a %s or %s."
+msgstr ""
+
+#. Error message displayed when the user tries to upload an unsupported file type and we know which types are accepted. Placeholder is a single accepted type. E.g. This file type is not supported, please attach a PDF
+msgctxt "Error message when an uploaded file type is not supported"
+msgid "This file type is not supported, please attach a %s."
+msgstr ""
+
+#. Generic error message displayed when the user tries to upload an unsupported file type and we cannot determine the accepted types
+msgctxt "Error message when an uploaded file type is not supported"
+msgid "This file type is not supported."
+msgstr ""
+
 #. Header above a list of benefits of the cloud save feature.
 msgctxt "cloudsave"
 msgid "This has a few benefits:"
@@ -13430,6 +13509,12 @@ msgstr "Yma nebes les gans hemma:"
 msgctxt "Error message when an uploaded file is not the right format"
 msgid ""
 "This image type is not supported, please attach a JPG,  PNG, WebP, or GIF"
+msgstr ""
+
+#. Error message displayed when a file that the user tried to upload is not of a supported format
+msgctxt "Error message when an uploaded file is not the right format"
+msgid ""
+"This image type is not supported, please attach a JPG,  PNG, WebP, or GIF."
 msgstr ""
 
 #. Given as an option to select when providing feedback
@@ -13857,8 +13942,18 @@ msgctxt "Feedback prompt"
 msgid "Trustworthy source"
 msgstr ""
 
+#. Button label for a promotional card that encourages users to try the encrypted AI model. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional CTA for encrypted AI model"
+msgid "Try %s"
+msgstr ""
+
 #. Prompt for the user to start using our homepage that doesn't show promotional messages. The placeholder is a homepage url (e.g., 'start.duckduckgo.com')
 msgid "Try %s to stop seeing messages like this."
+msgstr ""
+
+#. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional text for encrypted AI model"
+msgid "Try %s, our first model with zero provider visibility."
 msgstr ""
 
 msgid "Try %sDuck.ai%s, our private AI chat service:"
@@ -14936,6 +15031,12 @@ msgctxt "precise_user_location"
 msgid "We can use your anonymous%s location%s to show you nearby results."
 msgstr ""
 
+#. Error message displayed when one or more attached files are encrypted and cannot be read.
+msgctxt "Error message when at least one attached file is encrypted"
+msgid ""
+"We can't read the files attached because at least one of them is encrypted."
+msgstr ""
+
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't follow you around with ads."
 msgstr ""
@@ -15821,9 +15922,19 @@ msgctxt "Error message when file count exceeds conversation limit"
 msgid "You can only attach %s files per conversation"
 msgstr ""
 
+#. Error message displayed when the user has attached more files than are allowed in a conversation. Placeholder is the maximum number of files. E.g. You can only attach 3 files per conversation
+msgctxt "Error message when file count exceeds conversation limit"
+msgid "You can only attach %s files per conversation."
+msgstr ""
+
 #. Error message displayed when the user has select more images than are allowed to be uploaded. Placeholder is the number of images that are allowed. E.g. You can only attach 3 images per chat
 msgctxt "Error message when input exceeds image upload limit"
 msgid "You can only attach %s images at a time"
+msgstr ""
+
+#. Error message displayed when the user has select more images than are allowed to be uploaded. Placeholder is the number of images that are allowed. E.g. You can only attach 3 images per chat
+msgctxt "Error message when input exceeds image upload limit"
+msgid "You can only attach %s images at a time."
 msgstr ""
 
 #. Error message displayed when the user has attached more images across the conversation than allowed. Placeholder is the maximum number of images. E.g. You can only attach 5 images per conversation
@@ -15831,9 +15942,19 @@ msgctxt "Error message when total image count exceeds conversation limit"
 msgid "You can only attach %s images per conversation"
 msgstr ""
 
+#. Error message displayed when the user has attached more images across the conversation than allowed. Placeholder is the maximum number of images. E.g. You can only attach 5 images per conversation
+msgctxt "Error message when total image count exceeds conversation limit"
+msgid "You can only attach %s images per conversation."
+msgstr ""
+
 #. Error message displayed when the user has select more images than are allowed to be uploaded.
 msgctxt "Error message when input exceeds image upload limit"
 msgid "You can only attach 1 image at a time"
+msgstr ""
+
+#. Error message displayed when the user has select more images than are allowed to be uploaded.
+msgctxt "Error message when input exceeds image upload limit"
+msgid "You can only attach 1 image at a time."
 msgstr ""
 
 #. Message that appears when a site is blocked unsuccessfully
@@ -16251,6 +16372,17 @@ msgctxt "Privacy claim title in Duck.ai chat"
 msgid "Zero data retention"
 msgstr ""
 
+#. Text that indicates that an AI Model runs in a Trusted Execution Environment the model provider cannot access user data. Please stick to a short translation as this is used in a small label.
+msgctxt ""
+"Label copy indicating that an AI Model runs in an encrypted environment"
+msgid "Zero provider visibility"
+msgstr ""
+
+#. Title for the privacy claim that the model provider cannot access user data because inference runs in an encrypted environment.
+msgctxt "Privacy claim title in Duck.ai chat for encrypted models"
+msgid "Zero provider visibility"
+msgstr ""
+
 msgid "Zimbabwe"
 msgstr ""
 
@@ -16466,6 +16598,11 @@ msgstr "yn fast"
 
 #. Label inside the clickable privacy button on the chat empty state heading. Displayed alongside a shield icon.
 msgctxt "Privacy button label in Duck.ai chat empty state"
+msgid "private"
+msgstr ""
+
+#. This word is inserted into the sentence 'All chats are [private].' as a clickable link that opens the privacy protection modal. It must grammatically agree with 'chats' in the parent sentence (e.g. gender/number inflection in languages that require it).
+msgctxt "Privacy link label in Duck.ai disclaimer below chat input"
 msgid "private"
 msgstr ""
 
