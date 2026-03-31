@@ -219,6 +219,14 @@ msgctxt "Organic result context menu"
 msgid "%s results hidden"
 msgstr ""
 
+#. Description explaining that the model runs in an encrypted environment so neither DuckDuckGo nor the model provider can access user prompts or responses. %s is replaced with the full model name (e.g. 'GPT-OSS 120B').
+msgctxt "Privacy claim description in Duck.ai chat for encrypted models"
+msgid ""
+"%s runs in a Trusted Execution Environment. This means not even the model "
+"provider can see your prompts or the model’s responses, or save this chat on "
+"their servers."
+msgstr ""
+
 #. Shown to Plus subscribers when they hit a usage limit error. The variable is a link with text 'Upgrade to Pro' that takes the user to the Pro plans page. Example: Upgrade to Pro to unlock 2x higher limits.
 msgctxt "Text promoting Pro upgrade for Plus subscribers who hit usage limits"
 msgid "%s to unlock 2x higher limits."
@@ -1069,6 +1077,11 @@ msgstr ""
 #. Heading shown on the empty chat screen. %s is replaced with an interactive privacy button containing a shield icon and the word 'private'.
 msgctxt "Empty state heading in Duck.ai chat mode"
 msgid "All chats are %s"
+msgstr ""
+
+#. Disclaimer text shown below chat input. %s is replaced with a clickable underlined 'private' link that opens the privacy protection modal.
+msgctxt "Disclaimer below chat input in Duck.ai"
+msgid "All chats are %s. AI can make mistakes."
 msgstr ""
 
 #. Title displayed at the top of the privacy protection modal in Duck.ai, summarizing that all conversations are private.
@@ -2828,6 +2841,13 @@ msgid ""
 "Clearing browser data deletes recent chats. Recent chats may be saved "
 "indefinitely or auto-deleted after 7 days without using Duck.ai, depending "
 "on your browser."
+msgstr ""
+
+#. Warning message shown on the Block domain success modal. Blocked sites are stored in localStorage which is cleared alongside cookies when users clear browser data. Followed by a linked 'our free browser' text.
+msgctxt "settings"
+msgid ""
+"Clearing browser data will reset your blocked sites. Save your block list "
+"permanently in"
 msgstr ""
 
 #. Second paragraph of a section inviting users to learn more about the duckassist instant answer (based on generative AI)
@@ -7357,6 +7377,11 @@ msgctxt "Link to learn more about how DuckDuckGo uses the user location"
 msgid "Learn more"
 msgstr ""
 
+#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
+msgctxt "settings"
+msgid "Learn more"
+msgstr ""
+
 #. Link to a documentation page to learn more about how duckassist (an instant answer based on generative AI) works
 msgid "Learn more about how it works"
 msgstr ""
@@ -10489,6 +10514,11 @@ msgctxt "Informational text with a link to DuckDuckGo AI Chat Privacy Terms"
 msgid "Read our %s"
 msgstr ""
 
+#. Text displayed while the AI assistant is reading a specific local document, such as an uploaded file or attached page context, while generating a response.
+msgctxt "Assistant response progress report"
+msgid "Reading document"
+msgstr ""
+
 #. Loading message shown while duckassist is reading search results
 msgid "Reading search results..."
 msgstr ""
@@ -11589,6 +11619,11 @@ msgstr ""
 msgid "See Photos"
 msgstr ""
 
+#. Text for a button that links to the terms of use and privacy policy page.
+msgctxt "Secondary button text in active privacy modal"
+msgid "See Privacy Policy and Terms of Service"
+msgstr ""
+
 #. Text of the secondary button in the modal that allows the user to open the terms and privacy policy page.
 msgctxt "Modal secondary button for privacy"
 msgid "See Terms and Privacy Policy"
@@ -11613,6 +11648,11 @@ msgstr ""
 #. Then at the bottom of the cloud save box - http://i.imgur.com/4Jo3jAf.png
 msgctxt "cloudsave"
 msgid "See also"
+msgstr ""
+
+#. Link text shown below a rich caption list in search results. The placeholder %s is the website domain name, e.g. 'wikipedia.org'.
+msgctxt "Rich caption simple list, see more link"
+msgid "See full list on %s"
 msgstr ""
 
 #. Text for tooltip shown on hover when displaying the number of reviews the merchant has on an ad
@@ -13011,6 +13051,12 @@ msgstr ""
 msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr ""
 
+#. Warning text shown in the model switch dropdown when the user is currently using an encrypted model. Warns that the new model will not have zero provider visibility.
+msgctxt "AI Chat warning when switching from an encrypted model"
+msgid ""
+"Switching will send your chat to a model without zero provider visibility"
+msgstr ""
+
 msgid "Switzerland"
 msgstr ""
 
@@ -13301,6 +13347,11 @@ msgstr ""
 msgctxt "Privacy claim description in Duck.ai chat"
 msgid ""
 "The model provider deletes any data associated with this chat within 30 days."
+msgstr ""
+
+#. Description explaining that the AI model provider does not store any chat data on their servers.
+msgctxt "Privacy claim description in Duck.ai chat"
+msgid "The model provider does not save this chat on their servers."
 msgstr ""
 
 #. Description explaining that the AI model provider does not store any chat data on their servers.
@@ -13902,8 +13953,18 @@ msgctxt "Feedback prompt"
 msgid "Trustworthy source"
 msgstr ""
 
+#. Button label for a promotional card that encourages users to try the encrypted AI model. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional CTA for encrypted AI model"
+msgid "Try %s"
+msgstr ""
+
 #. Prompt for the user to start using our homepage that doesn't show promotional messages. The placeholder is a homepage url (e.g., 'start.duckduckgo.com')
 msgid "Try %s to stop seeing messages like this."
+msgstr ""
+
+#. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional text for encrypted AI model"
+msgid "Try %s, our first model with zero provider visibility."
 msgstr ""
 
 msgid "Try %sDuck.ai%s, our private AI chat service:"
@@ -16302,6 +16363,17 @@ msgctxt "Privacy claim title in Duck.ai chat"
 msgid "Zero data retention"
 msgstr ""
 
+#. Text that indicates that an AI Model runs in a Trusted Execution Environment the model provider cannot access user data. Please stick to a short translation as this is used in a small label.
+msgctxt ""
+"Label copy indicating that an AI Model runs in an encrypted environment"
+msgid "Zero provider visibility"
+msgstr ""
+
+#. Title for the privacy claim that the model provider cannot access user data because inference runs in an encrypted environment.
+msgctxt "Privacy claim title in Duck.ai chat for encrypted models"
+msgid "Zero provider visibility"
+msgstr ""
+
 msgid "Zimbabwe"
 msgstr ""
 
@@ -16513,12 +16585,22 @@ msgstr ""
 msgid "or write out the font you want"
 msgstr "կամ նշիր քո նախընտրած տառատեսակը"
 
+#. Link text on the Block domain success modal that links to the DuckDuckGo browser download page.
+msgctxt "settings"
+msgid "our free browser."
+msgstr ""
+
 #. Message displayed sometimes at top of results -- in the context of safe search.
 msgid "permanently"
 msgstr "մնայուն"
 
 #. Label inside the clickable privacy button on the chat empty state heading. Displayed alongside a shield icon.
 msgctxt "Privacy button label in Duck.ai chat empty state"
+msgid "private"
+msgstr ""
+
+#. This word is inserted into the sentence 'All chats are [private].' as a clickable link that opens the privacy protection modal. It must grammatically agree with 'chats' in the parent sentence (e.g. gender/number inflection in languages that require it).
+msgctxt "Privacy link label in Duck.ai disclaimer below chat input"
 msgid "private"
 msgstr ""
 
