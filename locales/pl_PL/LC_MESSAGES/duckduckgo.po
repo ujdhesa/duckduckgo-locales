@@ -266,6 +266,18 @@ msgid "%s results hidden"
 msgstr "Ukryte wyniki: %1$s"
 
 # smartling.placeholder_format=C
+#. Description explaining that the model runs in an encrypted environment so neither DuckDuckGo nor the model provider can access user prompts or responses. %s is replaced with the full model name (e.g. 'GPT-OSS 120B').
+msgctxt "Privacy claim description in Duck.ai chat for encrypted models"
+msgid ""
+"%s runs in a Trusted Execution Environment. This means not even the model "
+"provider can see your prompts or the model’s responses, or save this chat on "
+"their servers."
+msgstr ""
+"%1$s działa w Zaufanym Środowisku Wykonawczym. Oznacza to, że nawet dostawca "
+"modelu nie może zobaczyć Twoich podpowiedzi ani odpowiedzi modela ani "
+"zapisać tego czatu na swoich serwerach."
+
+# smartling.placeholder_format=C
 #. Shown to Plus subscribers when they hit a usage limit error. The variable is a link with text 'Upgrade to Pro' that takes the user to the Pro plans page. Example: Upgrade to Pro to unlock 2x higher limits.
 msgctxt "Text promoting Pro upgrade for Plus subscribers who hit usage limits"
 msgid "%s to unlock 2x higher limits."
@@ -3575,6 +3587,16 @@ msgstr ""
 "Wyczyszczenie danych przeglądarki powoduje usunięcie ostatnich czatów. "
 "Ostatnie czaty mogą być zapisywane na czas nieokreślony lub automatycznie "
 "usuwane po 7 dniach bez korzystania z Duck.ai w zależności od przeglądarki."
+
+# smartling.placeholder_format=C
+#. Warning message shown on the Block domain success modal. Blocked sites are stored in localStorage which is cleared alongside cookies when users clear browser data. Followed by a linked 'our free browser' text.
+msgctxt "settings"
+msgid ""
+"Clearing browser data will reset your blocked sites. Save your block list "
+"permanently in"
+msgstr ""
+"Wyczyszczenie danych przeglądarki zresetuje twoje zablokowane strony. Zapisz "
+"swoją listę blokowanych na stałe w"
 
 # smartling.placeholder_format=C
 #. Second paragraph of a section inviting users to learn more about the duckassist instant answer (based on generative AI)
@@ -9263,6 +9285,12 @@ msgstr "Dowiedz się więcej"
 # smartling.placeholder_format=C
 #. Text for a link to the help page that explain how DuckDuckGo uses the user location.
 msgctxt "Link to learn more about how DuckDuckGo uses the user location"
+msgid "Learn more"
+msgstr "Dowiedz się więcej"
+
+# smartling.placeholder_format=C
+#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
+msgctxt "settings"
 msgid "Learn more"
 msgstr "Dowiedz się więcej"
 
@@ -16355,6 +16383,15 @@ msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr "Przejdź na wyszukiwarkę, która Cię nie śledzi. Nigdy."
 
 # smartling.placeholder_format=C
+#. Warning text shown in the model switch dropdown when the user is currently using an encrypted model. Warns that the new model will not have zero provider visibility.
+msgctxt "AI Chat warning when switching from an encrypted model"
+msgid ""
+"Switching will send your chat to a model without zero provider visibility"
+msgstr ""
+"Przełączanie spowoduje wysłanie Twojego czatu do modelu bez widoczności "
+"dostawcy"
+
+# smartling.placeholder_format=C
 msgid "Switzerland"
 msgstr "Szwajcaria"
 
@@ -17495,9 +17532,21 @@ msgid "Trustworthy source"
 msgstr "Zaufane źródło"
 
 # smartling.placeholder_format=C
+#. Button label for a promotional card that encourages users to try the encrypted AI model. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional CTA for encrypted AI model"
+msgid "Try %s"
+msgstr "Spróbuj %1$s"
+
+# smartling.placeholder_format=C
 #. Prompt for the user to start using our homepage that doesn't show promotional messages. The placeholder is a homepage url (e.g., 'start.duckduckgo.com')
 msgid "Try %s to stop seeing messages like this."
 msgstr "Wypróbuj %1$s, żeby przestać otrzymywać takie wiadomości."
+
+# smartling.placeholder_format=C
+#. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional text for encrypted AI model"
+msgid "Try %s, our first model with zero provider visibility."
+msgstr "Wypróbuj %1$s, nasz pierwszy model z zerową widocznością dostawcy."
 
 # smartling.placeholder_format=C
 msgid "Try %sDuck.ai%s, our private AI chat service:"
@@ -20553,6 +20602,19 @@ msgid "Zero data retention"
 msgstr "Brak przechowywania danych"
 
 # smartling.placeholder_format=C
+#. Text that indicates that an AI Model runs in a Trusted Execution Environment the model provider cannot access user data. Please stick to a short translation as this is used in a small label.
+msgctxt ""
+"Label copy indicating that an AI Model runs in an encrypted environment"
+msgid "Zero provider visibility"
+msgstr "Zerowa widoczność dostawcy"
+
+# smartling.placeholder_format=C
+#. Title for the privacy claim that the model provider cannot access user data because inference runs in an encrypted environment.
+msgctxt "Privacy claim title in Duck.ai chat for encrypted models"
+msgid "Zero provider visibility"
+msgstr "Zerowa widoczność dostawcy"
+
+# smartling.placeholder_format=C
 msgid "Zimbabwe"
 msgstr "Zimbabwe"
 
@@ -20806,6 +20868,12 @@ msgstr "albo podaj kod koloru np. %1$s (%2$s to zakodowany znak %3$s)."
 #. in https://duckduckgo.com/params under "Look & Feel Settings" under both "Link font: " and "Link font: "
 msgid "or write out the font you want"
 msgstr "lub podaj nazwę czcionki, której chcesz użyć"
+
+# smartling.placeholder_format=C
+#. Link text on the Block domain success modal that links to the DuckDuckGo browser download page.
+msgctxt "settings"
+msgid "our free browser."
+msgstr "nasza darmowa przeglądarka."
 
 # smartling.placeholder_format=C
 #. Message displayed sometimes at top of results -- in the context of safe search.
