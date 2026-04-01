@@ -265,6 +265,18 @@ msgid "%s results hidden"
 msgstr "Вынікі (%1$s) схаваны"
 
 # smartling.placeholder_format=C
+#. Description explaining that the model runs in an encrypted environment so neither DuckDuckGo nor the model provider can access user prompts or responses. %s is replaced with the full model name (e.g. 'GPT-OSS 120B').
+msgctxt "Privacy claim description in Duck.ai chat for encrypted models"
+msgid ""
+"%s runs in a Trusted Execution Environment. This means not even the model "
+"provider can see your prompts or the model’s responses, or save this chat on "
+"their servers."
+msgstr ""
+"%1$s працуе ў Trusted Execution Environment. Гэта азначае, што нават "
+"пастаўшчык мадэлі не можа бачыць вашы падказкі або адказы мадэлі, а таксама "
+"захоўваць гэты чат на сваіх серверах."
+
+# smartling.placeholder_format=C
 #. Shown to Plus subscribers when they hit a usage limit error. The variable is a link with text 'Upgrade to Pro' that takes the user to the Pro plans page. Example: Upgrade to Pro to unlock 2x higher limits.
 msgctxt "Text promoting Pro upgrade for Plus subscribers who hit usage limits"
 msgid "%s to unlock 2x higher limits."
@@ -1328,6 +1340,12 @@ msgid "All chats are %s"
 msgstr "Усе чаты %1$s"
 
 # smartling.placeholder_format=C
+#. Disclaimer text shown below chat input. %s is replaced with a clickable underlined 'private' link that opens the privacy protection modal.
+msgctxt "Disclaimer below chat input in Duck.ai"
+msgid "All chats are %s. AI can make mistakes."
+msgstr "Усе чаты %1$s. AI можа рабіць памылкі."
+
+# smartling.placeholder_format=C
 #. Title displayed at the top of the privacy protection modal in Duck.ai, summarizing that all conversations are private.
 msgctxt "Privacy modal header in Duck.ai chat"
 msgid "All chats are private"
@@ -2074,6 +2092,12 @@ msgstr "Сярэднi рэйтынг: %1$s з 5"
 msgctxt "Stocks module"
 msgid "Avg Vol"
 msgstr "Сяр. аб'ём"
+
+# smartling.placeholder_format=C
+#. Warning text shown below the chat input when the user has attached files, advising them not to upload files from untrusted sources.
+msgctxt "Disclaimer below chat input in Duck.ai when files are attached"
+msgid "Avoid uploading files from sources you don't trust."
+msgstr "Не загружайце файлы з крыніц, якім вы не давяраеце."
 
 # smartling.placeholder_format=C
 #. Indicates the Win-Loss record of a team when playing away
@@ -3152,6 +3176,23 @@ msgid "Chat privately"
 msgstr "Размаўляйце ў чаце прыватна"
 
 # smartling.placeholder_format=C
+#. Mobile variant of DUCKCHAT_BROWSER_UPSELL_PROMO_TEXT. Shorter version for the promotional card encouraging third-party browser users to download the DuckDuckGo browser.
+msgctxt "Promotional text (mobile)"
+msgid "Chat privately on any website with Duck.ai built into our free browser."
+msgstr ""
+"Размаўляйце ў чаце прыватна на любым сайце з дапамогай функцыі Duck.ai, "
+"убудаванай ў наш бясплатны браўзер."
+
+# smartling.placeholder_format=C
+#. Text for a promotional card encouraging third-party browser users to download the DuckDuckGo browser. Not shown in the DuckDuckGo browser or on Linux.
+msgctxt "Promotional text"
+msgid ""
+"Chat privately on any website with the Duck.ai sidebar in our free browser."
+msgstr ""
+"Размаўляйце ў чаце прыватна на любым сайце з дапамогай бакавой панэлі "
+"Duck.ai ў нашым бясплатным браўзеры."
+
+# smartling.placeholder_format=C
 #. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
 msgctxt "Placeholder text user’s chat input"
 msgid "Chat privately with %s"
@@ -3537,6 +3578,16 @@ msgstr ""
 "Пры ачыстцы даных браўзера выдаляюцца нядаўнія чаты. У залежнасці ад "
 "браўзера, нядаўнія чаты могуць захоўвацца на нявызначаны час або аўтаматычна "
 "выдаляцца праз 7 дзён без выкарыстання Duck.ai ."
+
+# smartling.placeholder_format=C
+#. Warning message shown on the Block domain success modal. Blocked sites are stored in localStorage which is cleared alongside cookies when users clear browser data. Followed by a linked 'our free browser' text.
+msgctxt "settings"
+msgid ""
+"Clearing browser data will reset your blocked sites. Save your block list "
+"permanently in"
+msgstr ""
+"Пасля ачысткі даных браўзера будуць скінуты сайты, якія вы заблакіравалі. "
+"Захавайце свой спіс заблакіраваных сайтаў назаўсёды ў"
 
 # smartling.placeholder_format=C
 #. Second paragraph of a section inviting users to learn more about the duckassist instant answer (based on generative AI)
@@ -9226,6 +9277,12 @@ msgid "Learn more"
 msgstr "Даведацца больш"
 
 # smartling.placeholder_format=C
+#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
+msgctxt "settings"
+msgid "Learn more"
+msgstr "Даведацца больш"
+
+# smartling.placeholder_format=C
 #. Link to a documentation page to learn more about how duckassist (an instant answer based on generative AI) works
 msgid "Learn more about how it works"
 msgstr "Даведайцеся больш аб тым, як гэта працуе"
@@ -11349,6 +11406,17 @@ msgid "One moment please..."
 msgstr "Хвілінку..."
 
 # smartling.placeholder_format=C
+#. Error message displayed when one attached file has more pages than supported. Placeholder is the maximum supported page count. E.g. One of the files attached has more pages than we support. Please upload files with 15 pages or fewer.
+msgctxt ""
+"Error message when an attached file exceeds the supported page count limit"
+msgid ""
+"One of the files attached has more pages than we support. Please upload "
+"files with %s pages or fewer."
+msgstr ""
+"Адзін з прымацаваных файлаў мае большую колькасць старонак, чым мы "
+"падтрымліваем. Загружайце файлы з %1$s старонкамі або менш."
+
+# smartling.placeholder_format=C
 #. Response a user can select in a feedback form, indicating that they heard about DuckDuckGo in an online article.
 msgctxt "new user poll"
 msgid "Online article"
@@ -13076,6 +13144,12 @@ msgid "Read our %s"
 msgstr "Прачытайце: %1$s"
 
 # smartling.placeholder_format=C
+#. Text displayed while the AI assistant is reading a specific local document, such as an uploaded file or attached page context, while generating a response.
+msgctxt "Assistant response progress report"
+msgid "Reading document"
+msgstr "Чытанне дакумента"
+
+# smartling.placeholder_format=C
 #. Loading message shown while duckassist is reading search results
 msgid "Reading search results..."
 msgstr "Чытаю вынікі пошуку..."
@@ -14494,6 +14568,12 @@ msgid "See Photos"
 msgstr "Глядзець фатаграфіі"
 
 # smartling.placeholder_format=C
+#. Text for a button that links to the terms of use and privacy policy page.
+msgctxt "Secondary button text in active privacy modal"
+msgid "See Privacy Policy and Terms of Service"
+msgstr "Глядзець Палітыку прыватнасці і Умовы выкарыстання"
+
+# smartling.placeholder_format=C
 #. Text of the secondary button in the modal that allows the user to open the terms and privacy policy page.
 msgctxt "Modal secondary button for privacy"
 msgid "See Terms and Privacy Policy"
@@ -14523,6 +14603,12 @@ msgstr "Што новага"
 msgctxt "cloudsave"
 msgid "See also"
 msgstr "Глядзіце таксама"
+
+# smartling.placeholder_format=C
+#. Link text shown below a rich caption list in search results. The placeholder %s is the website domain name, e.g. 'wikipedia.org'.
+msgctxt "Rich caption simple list, see more link"
+msgid "See full list on %s"
+msgstr "Глядзець поўны спіс на старонцы %1$s"
 
 # smartling.placeholder_format=C
 #. Text for tooltip shown on hover when displaying the number of reviews the merchant has on an ad
@@ -16275,6 +16361,15 @@ msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr "Перайдзіце на пошукавую сістэму, якая не адсочвае вас. Ніколі."
 
 # smartling.placeholder_format=C
+#. Warning text shown in the model switch dropdown when the user is currently using an encrypted model. Warns that the new model will not have zero provider visibility.
+msgctxt "AI Chat warning when switching from an encrypted model"
+msgid ""
+"Switching will send your chat to a model without zero provider visibility"
+msgstr ""
+"У выпадку пераключэння ваш чат будзе адпраўлены для выкарыстання ў мадэлі "
+"без бачнасці пастаўшчыка"
+
+# smartling.placeholder_format=C
 msgid "Switzerland"
 msgstr "Швейцарыя"
 
@@ -16629,6 +16724,12 @@ msgid "The attached files exceed the total size limit of %s MB"
 msgstr "Памер далучаных файлаў перавышае агульны ліміт %1$s МБ"
 
 # smartling.placeholder_format=C
+#. Error message displayed when the total size of all attached files in a conversation exceeds the allowed limit. Placeholder is the combined size limit in megabytes. E.g. The attached files exceed the total size limit of 5 MB
+msgctxt "Error message when combined file size exceeds the limit"
+msgid "The attached files exceed the total size limit of %s MB."
+msgstr "Памер далучаных файлаў перавышае агульны ліміт %1$s МБ."
+
+# smartling.placeholder_format=C
 #. Description explaining that the AI model provider deletes all chat data within 30 days.
 msgctxt "Privacy claim description in Duck.ai chat"
 msgid ""
@@ -16636,6 +16737,12 @@ msgid ""
 msgstr ""
 "Пастаўшчык мадэлі выдаляе ўсе даныя, звязаныя з гэтым чатам, на працягу 30 "
 "дзён."
+
+# smartling.placeholder_format=C
+#. Description explaining that the AI model provider does not store any chat data on their servers.
+msgctxt "Privacy claim description in Duck.ai chat"
+msgid "The model provider does not save this chat on their servers."
+msgstr "Пастаўшчык мадэлі не захоўвае гэты чат на сваіх серверах."
 
 # smartling.placeholder_format=C
 #. Description explaining that the AI model provider does not store any chat data on their servers.
@@ -16838,6 +16945,12 @@ msgid "This file is too large. The maximum file size is %s MB"
 msgstr "Гэты файл занадта вялікі. Максімальны памер файла — %1$s МБ"
 
 # smartling.placeholder_format=C
+#. Error message displayed when the user tries to attach a file that exceeds the maximum allowed size. Placeholder is the size limit in megabytes. E.g. This file is too large. The maximum file size is 5 MB
+msgctxt "Error message when a single file exceeds the size limit"
+msgid "This file is too large. The maximum file size is %s MB."
+msgstr "Гэты файл занадта вялікі. Максімальны памер файла — %1$s МБ."
+
+# smartling.placeholder_format=C
 #. Generic error message displayed when the user tries to upload an unsupported file type and we cannot determine the accepted types
 msgctxt "Error message when an uploaded file type is not supported"
 msgid "This file type is not supported"
@@ -16858,6 +16971,26 @@ msgid "This file type is not supported, please attach a %s or %s"
 msgstr "Гэты тып файла не падтрымліваецца. Калі ласка, далучыце %1$s або %2$s"
 
 # smartling.placeholder_format=C
+#. Error message for unsupported file type when multiple types are accepted. First placeholder is a comma-separated list of all accepted types except the last (e.g. PNG, JPG, WebP, GIF). Second placeholder is the last accepted type (e.g. PDF). Full example: This file type is not supported, please attach a PNG, JPG, WebP, GIF or PDF
+msgctxt ""
+"Error message when an uploaded file type is not supported, with list ending "
+"in or"
+msgid "This file type is not supported, please attach a %s or %s."
+msgstr "Гэты тып файла не падтрымліваецца. Далучыце %1$s або %2$s."
+
+# smartling.placeholder_format=C
+#. Error message displayed when the user tries to upload an unsupported file type and we know which types are accepted. Placeholder is a single accepted type. E.g. This file type is not supported, please attach a PDF
+msgctxt "Error message when an uploaded file type is not supported"
+msgid "This file type is not supported, please attach a %s."
+msgstr "Гэты тып файла не падтрымліваецца. Далучыце %1$s."
+
+# smartling.placeholder_format=C
+#. Generic error message displayed when the user tries to upload an unsupported file type and we cannot determine the accepted types
+msgctxt "Error message when an uploaded file type is not supported"
+msgid "This file type is not supported."
+msgstr "Гэты тып файла не падтрымліваецца."
+
+# smartling.placeholder_format=C
 #. Header above a list of benefits of the cloud save feature.
 msgctxt "cloudsave"
 msgid "This has a few benefits:"
@@ -16868,6 +17001,13 @@ msgstr "Гэта мае некалькі пераваг:"
 msgctxt "Error message when an uploaded file is not the right format"
 msgid ""
 "This image type is not supported, please attach a JPG,  PNG, WebP, or GIF"
+msgstr "Гэты тып відарыса не падтрымліваецца. Далучыце JPG, PNG, WebP або GIF."
+
+# smartling.placeholder_format=C
+#. Error message displayed when a file that the user tried to upload is not of a supported format
+msgctxt "Error message when an uploaded file is not the right format"
+msgid ""
+"This image type is not supported, please attach a JPG,  PNG, WebP, or GIF."
 msgstr "Гэты тып відарыса не падтрымліваецца. Далучыце JPG, PNG, WebP або GIF."
 
 # smartling.placeholder_format=C
@@ -17410,9 +17550,21 @@ msgid "Trustworthy source"
 msgstr "Крыніца, якая заслугоўвае даверу"
 
 # smartling.placeholder_format=C
+#. Button label for a promotional card that encourages users to try the encrypted AI model. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional CTA for encrypted AI model"
+msgid "Try %s"
+msgstr "Паспрабаваць %1$s"
+
+# smartling.placeholder_format=C
 #. Prompt for the user to start using our homepage that doesn't show promotional messages. The placeholder is a homepage url (e.g., 'start.duckduckgo.com')
 msgid "Try %s to stop seeing messages like this."
 msgstr "Паспрабуйце %1$s, каб больш не бачыць такіх паведамленняў."
+
+# smartling.placeholder_format=C
+#. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional text for encrypted AI model"
+msgid "Try %s, our first model with zero provider visibility."
+msgstr "Паспрабуйце %1$s, нашу першую мадэль з нулявой бачнасцю пастаўшчыка."
 
 # smartling.placeholder_format=C
 msgid "Try %sDuck.ai%s, our private AI chat service:"
@@ -18770,6 +18922,13 @@ msgstr ""
 "паказу вынікаў паблізу ад вас."
 
 # smartling.placeholder_format=C
+#. Error message displayed when one or more attached files are encrypted and cannot be read.
+msgctxt "Error message when at least one attached file is encrypted"
+msgid ""
+"We can't read the files attached because at least one of them is encrypted."
+msgstr "Мы не можам прачытаць далучаныя файлы, бо прынамсі адзін з іх зашыфраваны."
+
+# smartling.placeholder_format=C
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't follow you around with ads."
 msgstr "Мы не навязваем вам рэкламу."
@@ -19892,10 +20051,22 @@ msgid "You can only attach %s files per conversation"
 msgstr "Вы можаце далучыць да размовы абмежаваную колькасць файлаў (%1$s)"
 
 # smartling.placeholder_format=C
+#. Error message displayed when the user has attached more files than are allowed in a conversation. Placeholder is the maximum number of files. E.g. You can only attach 3 files per conversation
+msgctxt "Error message when file count exceeds conversation limit"
+msgid "You can only attach %s files per conversation."
+msgstr "Вы можаце далучыць да размовы абмежаваную колькасць файлаў (%1$s)."
+
+# smartling.placeholder_format=C
 #. Error message displayed when the user has select more images than are allowed to be uploaded. Placeholder is the number of images that are allowed. E.g. You can only attach 3 images per chat
 msgctxt "Error message when input exceeds image upload limit"
 msgid "You can only attach %s images at a time"
 msgstr "Можна далучыць толькі пэўную колькасць відарысаў (%1$s) адначасова"
+
+# smartling.placeholder_format=C
+#. Error message displayed when the user has select more images than are allowed to be uploaded. Placeholder is the number of images that are allowed. E.g. You can only attach 3 images per chat
+msgctxt "Error message when input exceeds image upload limit"
+msgid "You can only attach %s images at a time."
+msgstr "Вы можаце далучыць за раз абмежаваную колькасць відарысаў (%1$s)."
 
 # smartling.placeholder_format=C
 #. Error message displayed when the user has attached more images across the conversation than allowed. Placeholder is the maximum number of images. E.g. You can only attach 5 images per conversation
@@ -19904,10 +20075,22 @@ msgid "You can only attach %s images per conversation"
 msgstr "Вы можаце далучыць да размовы абмежаваную колькасць відарысаў (%1$s)"
 
 # smartling.placeholder_format=C
+#. Error message displayed when the user has attached more images across the conversation than allowed. Placeholder is the maximum number of images. E.g. You can only attach 5 images per conversation
+msgctxt "Error message when total image count exceeds conversation limit"
+msgid "You can only attach %s images per conversation."
+msgstr "Вы можаце далучыць да размовы абмежаваную колькасць відарысаў (%1$s)."
+
+# smartling.placeholder_format=C
 #. Error message displayed when the user has select more images than are allowed to be uploaded.
 msgctxt "Error message when input exceeds image upload limit"
 msgid "You can only attach 1 image at a time"
 msgstr "Можна далучыць толькі 1 відарыс за раз"
+
+# smartling.placeholder_format=C
+#. Error message displayed when the user has select more images than are allowed to be uploaded.
+msgctxt "Error message when input exceeds image upload limit"
+msgid "You can only attach 1 image at a time."
+msgstr "Вы можаце далучыць за раз толькі 1 відарыс."
 
 # smartling.placeholder_format=C
 #. Message that appears when a site is blocked unsuccessfully
@@ -20466,6 +20649,19 @@ msgid "Zero data retention"
 msgstr "Захоўванне даных не ажыццяўляецца"
 
 # smartling.placeholder_format=C
+#. Text that indicates that an AI Model runs in a Trusted Execution Environment the model provider cannot access user data. Please stick to a short translation as this is used in a small label.
+msgctxt ""
+"Label copy indicating that an AI Model runs in an encrypted environment"
+msgid "Zero provider visibility"
+msgstr "Нулявая бачнасць пастаўшчыка"
+
+# smartling.placeholder_format=C
+#. Title for the privacy claim that the model provider cannot access user data because inference runs in an encrypted environment.
+msgctxt "Privacy claim title in Duck.ai chat for encrypted models"
+msgid "Zero provider visibility"
+msgstr "Нулявая бачнасць пастаўшчыка"
+
+# smartling.placeholder_format=C
 msgid "Zimbabwe"
 msgstr "Зімбабвэ"
 
@@ -20723,6 +20919,12 @@ msgid "or write out the font you want"
 msgstr "альбо напішыце шрыфт, які вам патрэбен"
 
 # smartling.placeholder_format=C
+#. Link text on the Block domain success modal that links to the DuckDuckGo browser download page.
+msgctxt "settings"
+msgid "our free browser."
+msgstr "нашым бясплатным браўзеры."
+
+# smartling.placeholder_format=C
 #. Message displayed sometimes at top of results -- in the context of safe search.
 msgid "permanently"
 msgstr "назаўжды"
@@ -20730,6 +20932,12 @@ msgstr "назаўжды"
 # smartling.placeholder_format=C
 #. Label inside the clickable privacy button on the chat empty state heading. Displayed alongside a shield icon.
 msgctxt "Privacy button label in Duck.ai chat empty state"
+msgid "private"
+msgstr "прыватнае"
+
+# smartling.placeholder_format=C
+#. This word is inserted into the sentence 'All chats are [private].' as a clickable link that opens the privacy protection modal. It must grammatically agree with 'chats' in the parent sentence (e.g. gender/number inflection in languages that require it).
+msgctxt "Privacy link label in Duck.ai disclaimer below chat input"
 msgid "private"
 msgstr "прыватнае"
 
