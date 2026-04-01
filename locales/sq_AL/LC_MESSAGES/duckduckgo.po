@@ -14771,7 +14771,7 @@ msgstr "Që të reshtni së pari mesazhe si ky, provoni %s."
 #. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
 msgctxt "Promotional text for encrypted AI model"
 msgid "Try %s, our first model with zero provider visibility."
-msgstr "Provoni %s, të parin model tonin me sero dukshmëri nga shërbimi."
+msgstr "Provoni %s, të parin model tonin me zero dukshmëri nga shërbimi."
 
 #. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
 msgctxt "Promotional text for encrypted AI model"
