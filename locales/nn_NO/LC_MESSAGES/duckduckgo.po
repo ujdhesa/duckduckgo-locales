@@ -2840,6 +2840,13 @@ msgid ""
 "on your browser."
 msgstr ""
 
+#. Warning message shown on the Block domain success modal. Blocked sites are stored in localStorage which is cleared alongside cookies when users clear browser data. Followed by a linked 'our free browser' text.
+msgctxt "settings"
+msgid ""
+"Clearing browser data will reset your blocked sites. Save your block list "
+"permanently in"
+msgstr ""
+
 #. Second paragraph of a section inviting users to learn more about the duckassist instant answer (based on generative AI)
 msgid ""
 "Click \"More\" to go deeper on a topic, and ask follow-up questions via "
@@ -7359,6 +7366,11 @@ msgstr ""
 
 #. Text for a link to the help page that explain how DuckDuckGo uses the user location.
 msgctxt "Link to learn more about how DuckDuckGo uses the user location"
+msgid "Learn more"
+msgstr ""
+
+#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
+msgctxt "settings"
 msgid "Learn more"
 msgstr ""
 
@@ -16648,6 +16660,11 @@ msgstr "eller skriv ut fargen du ynskjer, t.d. %s (%s er eit koda %s-teikn)."
 #. in https://duckduckgo.com/params under "Look & Feel Settings" under both "Link font: " and "Link font: "
 msgid "or write out the font you want"
 msgstr "eller skriva ut skrifta du ynskjer"
+
+#. Link text on the Block domain success modal that links to the DuckDuckGo browser download page.
+msgctxt "settings"
+msgid "our free browser."
+msgstr ""
 
 #. Message displayed sometimes at top of results -- in the context of safe search.
 msgid "permanently"

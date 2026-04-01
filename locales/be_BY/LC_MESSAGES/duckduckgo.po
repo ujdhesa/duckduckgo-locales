@@ -3176,6 +3176,23 @@ msgid "Chat privately"
 msgstr "Размаўляйце ў чаце прыватна"
 
 # smartling.placeholder_format=C
+#. Mobile variant of DUCKCHAT_BROWSER_UPSELL_PROMO_TEXT. Shorter version for the promotional card encouraging third-party browser users to download the DuckDuckGo browser.
+msgctxt "Promotional text (mobile)"
+msgid "Chat privately on any website with Duck.ai built into our free browser."
+msgstr ""
+"Размаўляйце ў чаце прыватна на любым сайце з дапамогай функцыі Duck.ai, "
+"убудаванай ў наш бясплатны браўзер."
+
+# smartling.placeholder_format=C
+#. Text for a promotional card encouraging third-party browser users to download the DuckDuckGo browser. Not shown in the DuckDuckGo browser or on Linux.
+msgctxt "Promotional text"
+msgid ""
+"Chat privately on any website with the Duck.ai sidebar in our free browser."
+msgstr ""
+"Размаўляйце ў чаце прыватна на любым сайце з дапамогай бакавой панэлі "
+"Duck.ai ў нашым бясплатным браўзеры."
+
+# smartling.placeholder_format=C
 #. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
 msgctxt "Placeholder text user’s chat input"
 msgid "Chat privately with %s"
@@ -3561,6 +3578,16 @@ msgstr ""
 "Пры ачыстцы даных браўзера выдаляюцца нядаўнія чаты. У залежнасці ад "
 "браўзера, нядаўнія чаты могуць захоўвацца на нявызначаны час або аўтаматычна "
 "выдаляцца праз 7 дзён без выкарыстання Duck.ai ."
+
+# smartling.placeholder_format=C
+#. Warning message shown on the Block domain success modal. Blocked sites are stored in localStorage which is cleared alongside cookies when users clear browser data. Followed by a linked 'our free browser' text.
+msgctxt "settings"
+msgid ""
+"Clearing browser data will reset your blocked sites. Save your block list "
+"permanently in"
+msgstr ""
+"Пасля ачысткі даных браўзера будуць скінуты сайты, якія вы заблакіравалі. "
+"Захавайце свой спіс заблакіраваных сайтаў назаўсёды ў"
 
 # smartling.placeholder_format=C
 #. Second paragraph of a section inviting users to learn more about the duckassist instant answer (based on generative AI)
@@ -4745,12 +4772,6 @@ msgstr "Выдаліць гэты чат?"
 msgctxt "Feedback prompt"
 msgid "Deleted chats"
 msgstr "Выдаленыя чаты"
-
-# smartling.placeholder_format=C
-#. Warning message shown on settings pages and modals to inform users that deleting browser cookies will reset their search preferences.
-msgctxt "settings"
-msgid "Deleting cookies will reset these settings."
-msgstr "Выдаленне файлаў cookie прывядзе да скіду гэтых налад."
 
 # smartling.placeholder_format=C
 msgid "Democratic People's Republic of Korea"
@@ -9207,12 +9228,6 @@ msgid "Learn More"
 msgstr "Даведацца больш"
 
 # smartling.placeholder_format=C
-#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
-msgctxt "settings"
-msgid "Learn More"
-msgstr "Даведацца больш"
-
-# smartling.placeholder_format=C
 #. A link to the DuckDuckGo browser extension on the Firefox Add-ons Store
 msgctxt "homepage ATB modal"
 msgid "Learn More at Firefox Add-Ons"
@@ -9258,6 +9273,12 @@ msgstr "Даведацца больш"
 # smartling.placeholder_format=C
 #. Text for a link to the help page that explain how DuckDuckGo uses the user location.
 msgctxt "Link to learn more about how DuckDuckGo uses the user location"
+msgid "Learn more"
+msgstr "Даведацца больш"
+
+# smartling.placeholder_format=C
+#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
+msgctxt "settings"
 msgid "Learn more"
 msgstr "Даведацца больш"
 
@@ -17670,12 +17691,6 @@ msgid "Try more general keywords."
 msgstr "Паспрабуйце больш агульныя ключавыя словы."
 
 # smartling.placeholder_format=C
-#. Link text encouraging users to download the DuckDuckGo browser. Links to the browser download page.
-msgctxt "settings"
-msgid "Try our browser"
-msgstr "Паспрабуйце наш браўзер,"
-
-# smartling.placeholder_format=C
 #. Link to a version of the DuckDuckGo homepage that doesn't show any promotional messages.
 msgid "Try our homepage that never shows these messages:"
 msgstr "Паспрабуйце нашу хатнюю старонку, якая ніколі не паказвае гэтыя паведамленні:"
@@ -20904,6 +20919,12 @@ msgid "or write out the font you want"
 msgstr "альбо напішыце шрыфт, які вам патрэбен"
 
 # smartling.placeholder_format=C
+#. Link text on the Block domain success modal that links to the DuckDuckGo browser download page.
+msgctxt "settings"
+msgid "our free browser."
+msgstr "нашым бясплатным браўзеры."
+
+# smartling.placeholder_format=C
 #. Message displayed sometimes at top of results -- in the context of safe search.
 msgid "permanently"
 msgstr "назаўжды"
@@ -20986,12 +21007,6 @@ msgstr "гэта старонка дапамогі"
 msgctxt "maps_places"
 msgid "till %s"
 msgstr "да %1$s"
-
-# smartling.placeholder_format=C
-#. Text that follows the 'Try our browser' link, completing the sentence.
-msgctxt "settings"
-msgid "to never lose your settings."
-msgstr "каб ніколі не страціць свае налады."
 
 #  https://duckduckgo.com/?e=6
 # smartling.placeholder_format=C

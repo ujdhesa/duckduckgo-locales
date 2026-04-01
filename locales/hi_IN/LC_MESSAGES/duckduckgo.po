@@ -3177,6 +3177,23 @@ msgid "Chat privately"
 msgstr "गोपनीय ढंग से चैट करें"
 
 # smartling.placeholder_format=C
+#. Mobile variant of DUCKCHAT_BROWSER_UPSELL_PROMO_TEXT. Shorter version for the promotional card encouraging third-party browser users to download the DuckDuckGo browser.
+msgctxt "Promotional text (mobile)"
+msgid "Chat privately on any website with Duck.ai built into our free browser."
+msgstr ""
+"हमारे मुफ़्त ब्राउज़र में मौजूद Duck.ai के ज़रिए किसी भी वेबसाइट पर गोपनीय "
+"ढंग से चैट करें।"
+
+# smartling.placeholder_format=C
+#. Text for a promotional card encouraging third-party browser users to download the DuckDuckGo browser. Not shown in the DuckDuckGo browser or on Linux.
+msgctxt "Promotional text"
+msgid ""
+"Chat privately on any website with the Duck.ai sidebar in our free browser."
+msgstr ""
+"हमारे मुफ़्त ब्राउज़र में Duck.ai साइडबार के ज़रिए किसी भी वेबसाइट पर गोपनीय "
+"ढंग से चैट करें।"
+
+# smartling.placeholder_format=C
 #. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
 msgctxt "Placeholder text user’s chat input"
 msgid "Chat privately with %s"
@@ -3560,6 +3577,16 @@ msgstr ""
 "ब्राउज़र डेटा साफ़ करने से हाल की चैट हट जाती हैं। Duck.ai का इस्तेमाल किए "
 "बिना, हाल की चैट को अनिश्चित काल के लिए सेव किया जा सकता है या 7 दिनों के "
 "बाद अपने-आप हटाया जा सकता है। यह आपके ब्राउज़र पर निर्भर करता है।"
+
+# smartling.placeholder_format=C
+#. Warning message shown on the Block domain success modal. Blocked sites are stored in localStorage which is cleared alongside cookies when users clear browser data. Followed by a linked 'our free browser' text.
+msgctxt "settings"
+msgid ""
+"Clearing browser data will reset your blocked sites. Save your block list "
+"permanently in"
+msgstr ""
+"ब्राउज़र डेटा क्लियर करने से आपकी ब्लॉक की गई साइटें रीसेट हो जाएंगी। अपनी "
+"ब्लॉक लिस्ट को हमेशा के लिए सेव करें"
 
 # smartling.placeholder_format=C
 #. Second paragraph of a section inviting users to learn more about the duckassist instant answer (based on generative AI)
@@ -4744,12 +4771,6 @@ msgstr "इस चैट को डिलीट करें?"
 msgctxt "Feedback prompt"
 msgid "Deleted chats"
 msgstr "डिलीट की गई चैट"
-
-# smartling.placeholder_format=C
-#. Warning message shown on settings pages and modals to inform users that deleting browser cookies will reset their search preferences.
-msgctxt "settings"
-msgid "Deleting cookies will reset these settings."
-msgstr "कुकीज़ हटाने से ये सेटिंग रीसेट हो जाएंगी।"
 
 # smartling.placeholder_format=C
 msgid "Democratic People's Republic of Korea"
@@ -9189,12 +9210,6 @@ msgid "Learn More"
 msgstr "और जानें"
 
 # smartling.placeholder_format=C
-#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
-msgctxt "settings"
-msgid "Learn More"
-msgstr "और जानें"
-
-# smartling.placeholder_format=C
 #. A link to the DuckDuckGo browser extension on the Firefox Add-ons Store
 msgctxt "homepage ATB modal"
 msgid "Learn More at Firefox Add-Ons"
@@ -9238,6 +9253,12 @@ msgstr "और जानें"
 # smartling.placeholder_format=C
 #. Text for a link to the help page that explain how DuckDuckGo uses the user location.
 msgctxt "Link to learn more about how DuckDuckGo uses the user location"
+msgid "Learn more"
+msgstr "और जानें"
+
+# smartling.placeholder_format=C
+#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
+msgctxt "settings"
 msgid "Learn more"
 msgstr "और जानें"
 
@@ -17630,12 +17651,6 @@ msgid "Try more general keywords."
 msgstr "अधिक सामान्य कीवर्ड आज़माएं।"
 
 # smartling.placeholder_format=C
-#. Link text encouraging users to download the DuckDuckGo browser. Links to the browser download page.
-msgctxt "settings"
-msgid "Try our browser"
-msgstr "हमारा ब्राउज़र इस्तेमाल करें"
-
-# smartling.placeholder_format=C
 #. Link to a version of the DuckDuckGo homepage that doesn't show any promotional messages.
 msgid "Try our homepage that never shows these messages:"
 msgstr "हमारा होमपेज आज़माएं जो कभी ये संदेश नहीं दिखाता है:"
@@ -20864,6 +20879,12 @@ msgid "or write out the font you want"
 msgstr "या जो फ़ॉन्ट आप चाहते हैं वो लिखें"
 
 # smartling.placeholder_format=C
+#. Link text on the Block domain success modal that links to the DuckDuckGo browser download page.
+msgctxt "settings"
+msgid "our free browser."
+msgstr "हमारे मुफ़्त ब्राउज़र में।"
+
+# smartling.placeholder_format=C
 #. Message displayed sometimes at top of results -- in the context of safe search.
 msgid "permanently"
 msgstr "स्थायी रूप से"
@@ -20946,12 +20967,6 @@ msgstr "यह हेल्प पेज"
 msgctxt "maps_places"
 msgid "till %s"
 msgstr "%1$s बजे तक"
-
-# smartling.placeholder_format=C
-#. Text that follows the 'Try our browser' link, completing the sentence.
-msgctxt "settings"
-msgid "to never lose your settings."
-msgstr "ताकि आपकी सेटिंग कभी न खोएं।"
 
 #  https://duckduckgo.com/?e=6
 # smartling.placeholder_format=C
