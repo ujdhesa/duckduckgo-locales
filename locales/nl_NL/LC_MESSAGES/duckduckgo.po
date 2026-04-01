@@ -3177,6 +3177,19 @@ msgid "Chat privately"
 msgstr "Privé chatten"
 
 # smartling.placeholder_format=C
+#. Mobile variant of DUCKCHAT_BROWSER_UPSELL_PROMO_TEXT. Shorter version for the promotional card encouraging third-party browser users to download the DuckDuckGo browser.
+msgctxt "Promotional text (mobile)"
+msgid "Chat privately on any website with Duck.ai built into our free browser."
+msgstr "Chat privé op elke website met Duck.ai, ingebouwd in onze gratis browser."
+
+# smartling.placeholder_format=C
+#. Text for a promotional card encouraging third-party browser users to download the DuckDuckGo browser. Not shown in the DuckDuckGo browser or on Linux.
+msgctxt "Promotional text"
+msgid ""
+"Chat privately on any website with the Duck.ai sidebar in our free browser."
+msgstr "Chat privé op elke website met de Duck.ai-zijbalk in onze gratis browser."
+
+# smartling.placeholder_format=C
 #. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
 msgctxt "Placeholder text user’s chat input"
 msgid "Chat privately with %s"
@@ -4755,12 +4768,6 @@ msgstr "Deze chat verwijderen?"
 msgctxt "Feedback prompt"
 msgid "Deleted chats"
 msgstr "Verwijderde chats"
-
-# smartling.placeholder_format=C
-#. Warning message shown on settings pages and modals to inform users that deleting browser cookies will reset their search preferences.
-msgctxt "settings"
-msgid "Deleting cookies will reset these settings."
-msgstr "Door cookies te verwijderen, worden deze instellingen gereset."
 
 # smartling.placeholder_format=C
 msgid "Democratic People's Republic of Korea"
@@ -9214,12 +9221,6 @@ msgstr "Meer informatie"
 # smartling.placeholder_format=C
 #. Displayed during an outage as a link to see all of the bangs DuckDuckGo has available.
 msgctxt "noresults"
-msgid "Learn More"
-msgstr "Meer informatie"
-
-# smartling.placeholder_format=C
-#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
-msgctxt "settings"
 msgid "Learn More"
 msgstr "Meer informatie"
 
@@ -17645,12 +17646,6 @@ msgid "Try more general keywords."
 msgstr "Probeer meer algemene zoekwoorden."
 
 # smartling.placeholder_format=C
-#. Link text encouraging users to download the DuckDuckGo browser. Links to the browser download page.
-msgctxt "settings"
-msgid "Try our browser"
-msgstr "Probeer onze browser"
-
-# smartling.placeholder_format=C
 #. Link to a version of the DuckDuckGo homepage that doesn't show any promotional messages.
 msgid "Try our homepage that never shows these messages:"
 msgstr "Probeer onze homepage, waar je deze berichten nooit te zien zult krijgen:"
@@ -20936,12 +20931,6 @@ msgstr "deze helppagina"
 msgctxt "maps_places"
 msgid "till %s"
 msgstr "tot %1$s"
-
-# smartling.placeholder_format=C
-#. Text that follows the 'Try our browser' link, completing the sentence.
-msgctxt "settings"
-msgid "to never lose your settings."
-msgstr "zodat je je instellingen nooit kwijtraakt."
 
 #  https://duckduckgo.com/?e=6
 # smartling.placeholder_format=C
