@@ -2014,6 +2014,12 @@ msgid "Avg Vol"
 msgstr "平均成交量"
 
 # smartling.placeholder_format=C
+#. Warning text shown below the chat input when the user has attached files, advising them not to upload files from untrusted sources.
+msgctxt "Disclaimer below chat input in Duck.ai when files are attached"
+msgid "Avoid uploading files from sources you don't trust."
+msgstr "避免從不信任的來源上傳檔案。"
+
+# smartling.placeholder_format=C
 #. Indicates the Win-Loss record of a team when playing away
 msgctxt "Sports module"
 msgid "Away Record"
@@ -11094,6 +11100,15 @@ msgid "One moment please..."
 msgstr "請稍等片刻……"
 
 # smartling.placeholder_format=C
+#. Error message displayed when one attached file has more pages than supported. Placeholder is the maximum supported page count. E.g. One of the files attached has more pages than we support. Please upload files with 15 pages or fewer.
+msgctxt ""
+"Error message when an attached file exceeds the supported page count limit"
+msgid ""
+"One of the files attached has more pages than we support. Please upload "
+"files with %s pages or fewer."
+msgstr "附上的其中一個檔案頁數超過了我們的支援範圍。請上傳頁數不超過 %1$s 的檔案。"
+
+# smartling.placeholder_format=C
 #. Response a user can select in a feedback form, indicating that they heard about DuckDuckGo in an online article.
 msgctxt "new user poll"
 msgid "Online article"
@@ -16232,6 +16247,12 @@ msgid "The attached files exceed the total size limit of %s MB"
 msgstr "附加檔案的總大小已超過 %1$s MB 的上限"
 
 # smartling.placeholder_format=C
+#. Error message displayed when the total size of all attached files in a conversation exceeds the allowed limit. Placeholder is the combined size limit in megabytes. E.g. The attached files exceed the total size limit of 5 MB
+msgctxt "Error message when combined file size exceeds the limit"
+msgid "The attached files exceed the total size limit of %s MB."
+msgstr "附加檔案的總大小已超過 %1$s MB 的上限。"
+
+# smartling.placeholder_format=C
 #. Description explaining that the AI model provider deletes all chat data within 30 days.
 msgctxt "Privacy claim description in Duck.ai chat"
 msgid ""
@@ -16421,6 +16442,12 @@ msgid "This file is too large. The maximum file size is %s MB"
 msgstr "這個檔案太大。檔案大小上限為 %1$s MB"
 
 # smartling.placeholder_format=C
+#. Error message displayed when the user tries to attach a file that exceeds the maximum allowed size. Placeholder is the size limit in megabytes. E.g. This file is too large. The maximum file size is 5 MB
+msgctxt "Error message when a single file exceeds the size limit"
+msgid "This file is too large. The maximum file size is %s MB."
+msgstr "這個檔案太大。檔案大小上限為 %1$s MB。"
+
+# smartling.placeholder_format=C
 #. Generic error message displayed when the user tries to upload an unsupported file type and we cannot determine the accepted types
 msgctxt "Error message when an uploaded file type is not supported"
 msgid "This file type is not supported"
@@ -16441,6 +16468,26 @@ msgid "This file type is not supported, please attach a %s or %s"
 msgstr "此檔案類型不支援，請附加 %1$s 或 %2$s"
 
 # smartling.placeholder_format=C
+#. Error message for unsupported file type when multiple types are accepted. First placeholder is a comma-separated list of all accepted types except the last (e.g. PNG, JPG, WebP, GIF). Second placeholder is the last accepted type (e.g. PDF). Full example: This file type is not supported, please attach a PNG, JPG, WebP, GIF or PDF
+msgctxt ""
+"Error message when an uploaded file type is not supported, with list ending "
+"in or"
+msgid "This file type is not supported, please attach a %s or %s."
+msgstr "此檔案類型不支援，請附加 %1$s 或 %2$s"
+
+# smartling.placeholder_format=C
+#. Error message displayed when the user tries to upload an unsupported file type and we know which types are accepted. Placeholder is a single accepted type. E.g. This file type is not supported, please attach a PDF
+msgctxt "Error message when an uploaded file type is not supported"
+msgid "This file type is not supported, please attach a %s."
+msgstr "不支援此檔案類型，請附加 %1$s。"
+
+# smartling.placeholder_format=C
+#. Generic error message displayed when the user tries to upload an unsupported file type and we cannot determine the accepted types
+msgctxt "Error message when an uploaded file type is not supported"
+msgid "This file type is not supported."
+msgstr "不支援此檔案類型"
+
+# smartling.placeholder_format=C
 #. Header above a list of benefits of the cloud save feature.
 msgctxt "cloudsave"
 msgid "This has a few benefits:"
@@ -16452,6 +16499,13 @@ msgctxt "Error message when an uploaded file is not the right format"
 msgid ""
 "This image type is not supported, please attach a JPG,  PNG, WebP, or GIF"
 msgstr "不支援此影像類型，請附加 JPG、PNG、WebP 或 GIF"
+
+# smartling.placeholder_format=C
+#. Error message displayed when a file that the user tried to upload is not of a supported format
+msgctxt "Error message when an uploaded file is not the right format"
+msgid ""
+"This image type is not supported, please attach a JPG,  PNG, WebP, or GIF."
+msgstr "不支援此影像類型，請附加 JPG、PNG、WebP 或 GIF。"
 
 # smartling.placeholder_format=C
 #. Given as an option to select when providing feedback
@@ -18292,6 +18346,13 @@ msgid "We can use your anonymous%s location%s to show you nearby results."
 msgstr "我們可以使用你的匿名%1$s位置%2$s來顯示附近的結果。"
 
 # smartling.placeholder_format=C
+#. Error message displayed when one or more attached files are encrypted and cannot be read.
+msgctxt "Error message when at least one attached file is encrypted"
+msgid ""
+"We can't read the files attached because at least one of them is encrypted."
+msgstr "我們無法讀取附件中的檔案，因為其中至少有一個檔案是加密的。"
+
+# smartling.placeholder_format=C
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't follow you around with ads."
 msgstr "我們不會用廣告到處煩你。"
@@ -19355,9 +19416,21 @@ msgid "You can only attach %s files per conversation"
 msgstr "每次對話只能附加 %1$s 個檔案"
 
 # smartling.placeholder_format=C
+#. Error message displayed when the user has attached more files than are allowed in a conversation. Placeholder is the maximum number of files. E.g. You can only attach 3 files per conversation
+msgctxt "Error message when file count exceeds conversation limit"
+msgid "You can only attach %s files per conversation."
+msgstr "每次對話只能附加 %1$s 個檔案。"
+
+# smartling.placeholder_format=C
 #. Error message displayed when the user has select more images than are allowed to be uploaded. Placeholder is the number of images that are allowed. E.g. You can only attach 3 images per chat
 msgctxt "Error message when input exceeds image upload limit"
 msgid "You can only attach %s images at a time"
+msgstr "你一次只能附加 %1$s 張圖片"
+
+# smartling.placeholder_format=C
+#. Error message displayed when the user has select more images than are allowed to be uploaded. Placeholder is the number of images that are allowed. E.g. You can only attach 3 images per chat
+msgctxt "Error message when input exceeds image upload limit"
+msgid "You can only attach %s images at a time."
 msgstr "你一次只能附加 %1$s 張圖片"
 
 # smartling.placeholder_format=C
@@ -19367,10 +19440,22 @@ msgid "You can only attach %s images per conversation"
 msgstr "每次對話只能附加 %1$s 張圖片"
 
 # smartling.placeholder_format=C
+#. Error message displayed when the user has attached more images across the conversation than allowed. Placeholder is the maximum number of images. E.g. You can only attach 5 images per conversation
+msgctxt "Error message when total image count exceeds conversation limit"
+msgid "You can only attach %s images per conversation."
+msgstr "每次對話只能附加 %1$s 張圖片"
+
+# smartling.placeholder_format=C
 #. Error message displayed when the user has select more images than are allowed to be uploaded.
 msgctxt "Error message when input exceeds image upload limit"
 msgid "You can only attach 1 image at a time"
 msgstr "你一次只能附加 1 張圖片"
+
+# smartling.placeholder_format=C
+#. Error message displayed when the user has select more images than are allowed to be uploaded.
+msgctxt "Error message when input exceeds image upload limit"
+msgid "You can only attach 1 image at a time."
+msgstr "你一次只能附加 1 張圖片。"
 
 # smartling.placeholder_format=C
 #. Message that appears when a site is blocked unsuccessfully
